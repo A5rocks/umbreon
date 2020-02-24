@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+mypy = "*"
+trio-typing = "*"
+isort = "*"
+
+[packages]
+trio = "*"
+asks = "*"
+trio-websocket = "*"
+python-dateutil = "*"
+# erlpack = "*"  # optional btw
+
+[requires]
+python_version = "3.7"
